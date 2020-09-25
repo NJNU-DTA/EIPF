@@ -1,0 +1,185 @@
+﻿生成启动时间为 2018/1/15 20:41:23。
+     1>项目“D:\Desktop\ParallelComputer\Fill\Fill\Fill.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“x64\Debug\Fill.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“x64\Debug\Fill.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\GDAL\include /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt ..\..\Fillnew\Fill\PriorityFill.cpp ..\..\Fillnew\Fill\RasterReadWrite.cpp ..\..\Fillnew\Fill\ShellMain.cpp
+         ShellMain.cpp
+     1>d:\gdal\include\cpl_string.h(284): warning C4251: “std::_String_val<_Elem,_Alloc>::_Alval”: class“std::allocator<_Ty>”需要有 dll 接口由 class“std::_String_val<_Elem,_Alloc>”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Ty=char
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>D:\GDAL\include\gdal_priv.h(663): warning C4251: “GDALColorTable::aoEntries”: class“std::vector<_Ty>”需要有 dll 接口由 class“GDALColorTable”的客户端使用
+                 with
+                 [
+                     _Ty=GDALColorEntry
+                 ]
+     1>D:\GDAL\include\gdal_priv.h(1142): warning C4251: “GDALDriverManager::oMapNameToDrivers”: class“std::map<_Kty,_Ty>”需要有 dll 接口由 class“GDALDriverManager”的客户端使用
+                 with
+                 [
+                     _Kty=CPLString,
+                     _Ty=GDALDriver *
+                 ]
+     1>d:\desktop\parallelcomputer\fillnew\fill\FlagData.h(23): warning C4244: “=”: 从“float”转换到“char”，可能丢失数据
+     1>..\..\Fillnew\Fill\ShellMain.cpp(18): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\..\Fillnew\Fill\ShellMain.cpp(19): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\..\Fillnew\Fill\ShellMain.cpp(20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\..\Fillnew\Fill\ShellMain.cpp(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>..\..\Fillnew\Fill\ShellMain.cpp(23): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         RasterReadWrite.cpp
+     1>d:\gdal\include\cpl_string.h(284): warning C4251: “std::_String_val<_Elem,_Alloc>::_Alval”: class“std::allocator<_Ty>”需要有 dll 接口由 class“std::_String_val<_Elem,_Alloc>”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Ty=char
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>D:\GDAL\include\gdal_priv.h(663): warning C4251: “GDALColorTable::aoEntries”: class“std::vector<_Ty>”需要有 dll 接口由 class“GDALColorTable”的客户端使用
+                 with
+                 [
+                     _Ty=GDALColorEntry
+                 ]
+     1>D:\GDAL\include\gdal_priv.h(1142): warning C4251: “GDALDriverManager::oMapNameToDrivers”: class“std::map<_Kty,_Ty>”需要有 dll 接口由 class“GDALDriverManager”的客户端使用
+                 with
+                 [
+                     _Kty=CPLString,
+                     _Ty=GDALDriver *
+                 ]
+     1>..\..\Fillnew\Fill\RasterReadWrite.cpp(126): warning C4551: 缺少参数列表的函数调用
+         PriorityFill.cpp
+     1>d:\gdal\include\cpl_string.h(284): warning C4251: “std::_String_val<_Elem,_Alloc>::_Alval”: class“std::allocator<_Ty>”需要有 dll 接口由 class“std::_String_val<_Elem,_Alloc>”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+                 and
+                 [
+                     _Ty=char
+                 ]
+                 and
+                 [
+                     _Elem=char,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>D:\GDAL\include\gdal_priv.h(663): warning C4251: “GDALColorTable::aoEntries”: class“std::vector<_Ty>”需要有 dll 接口由 class“GDALColorTable”的客户端使用
+                 with
+                 [
+                     _Ty=GDALColorEntry
+                 ]
+     1>D:\GDAL\include\gdal_priv.h(1142): warning C4251: “GDALDriverManager::oMapNameToDrivers”: class“std::map<_Kty,_Ty>”需要有 dll 接口由 class“GDALDriverManager”的客户端使用
+                 with
+                 [
+                     _Kty=CPLString,
+                     _Ty=GDALDriver *
+                 ]
+     1>d:\desktop\parallelcomputer\fillnew\fill\FlagData.h(23): warning C4244: “=”: 从“float”转换到“char”，可能丢失数据
+     1>..\..\Fillnew\Fill\PriorityFill.cpp(528): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : 参见“localtime”的声明
+     1>..\..\Fillnew\Fill\PriorityFill.cpp(531): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>..\..\Fillnew\Fill\PriorityFill.cpp(803): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\Fillnew\Fill\PriorityFill.cpp(806): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\Fillnew\Fill\PriorityFill.cpp(820): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\Fillnew\Fill\PriorityFill.cpp(823): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Desktop\ParallelComputer\Fill\x64\Debug\Fill.exe" /NOLOGO /LIBPATH:D:\GDAL\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\Fill.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Desktop\ParallelComputer\Fill\x64\Debug\Fill.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Desktop\ParallelComputer\Fill\x64\Debug\Fill.lib" /MACHINE:X64 x64\Debug\PriorityFill.obj
+         x64\Debug\RasterReadWrite.obj
+         x64\Debug\ShellMain.obj
+            正在创建库 D:\Desktop\ParallelComputer\Fill\x64\Debug\Fill.lib 和对象 D:\Desktop\ParallelComputer\Fill\x64\Debug\Fill.exp
+     1>PriorityFill.obj : error LNK2019: 无法解析的外部符号 VSIFree，该符号在函数 "public: void __cdecl CPLString::Seize(char *)" (?Seize@CPLString@@QEAAXPEAD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 VSIFree
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 VSIFree
+     1>PriorityFill.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl CPLStringList::Count(void)const " (?Count@CPLStringList@@QEBAHXZ)，该符号在函数 "public: int __cdecl CPLStringList::size(void)const " (?size@CPLStringList@@QEBAHXZ) 中被引用
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 "public: int __cdecl CPLStringList::Count(void)const " (?Count@CPLStringList@@QEBAHXZ)
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 "public: int __cdecl CPLStringList::Count(void)const " (?Count@CPLStringList@@QEBAHXZ)
+     1>PriorityFill.obj : error LNK2019: 无法解析的外部符号 "public: class CPLStringList & __cdecl CPLStringList::InsertStringDirectly(int,char *)" (?InsertStringDirectly@CPLStringList@@QEAAAEAV1@HPEAD@Z)，该符号在函数 "public: class CPLStringList & __cdecl CPLStringList::InsertString(int,char const *)" (?InsertString@CPLStringList@@QEAAAEAV1@HPEBD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 "public: class CPLStringList & __cdecl CPLStringList::InsertStringDirectly(int,char *)" (?InsertStringDirectly@CPLStringList@@QEAAAEAV1@HPEAD@Z)
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 "public: class CPLStringList & __cdecl CPLStringList::InsertStringDirectly(int,char *)" (?InsertStringDirectly@CPLStringList@@QEAAAEAV1@HPEAD@Z)
+     1>PriorityFill.obj : error LNK2019: 无法解析的外部符号 CPLStrdup，该符号在函数 "public: class CPLStringList & __cdecl CPLStringList::InsertString(int,char const *)" (?InsertString@CPLStringList@@QEAAAEAV1@HPEBD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 CPLStrdup
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 CPLStrdup
+     1>PriorityFill.obj : error LNK2019: 无法解析的外部符号 CSLFindString，该符号在函数 "public: int __cdecl CPLStringList::FindString(char const *)const " (?FindString@CPLStringList@@QEBAHPEBD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 CSLFindString
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 CSLFindString
+     1>PriorityFill.obj : error LNK2019: 无法解析的外部符号 CSLPartialFindString，该符号在函数 "public: int __cdecl CPLStringList::PartialFindString(char const *)const " (?PartialFindString@CPLStringList@@QEBAHPEBD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 CSLPartialFindString
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 CSLPartialFindString
+     1>PriorityFill.obj : error LNK2019: 无法解析的外部符号 "public: class CPLStringList & __cdecl CPLStringList::Assign(char * *,int)" (?Assign@CPLStringList@@QEAAAEAV1@PEAPEADH@Z)，该符号在函数 "public: class CPLStringList & __cdecl CPLStringList::operator=(char * *)" (??4CPLStringList@@QEAAAEAV0@PEAPEAD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 "public: class CPLStringList & __cdecl CPLStringList::Assign(char * *,int)" (?Assign@CPLStringList@@QEAAAEAV1@PEAPEADH@Z)
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 "public: class CPLStringList & __cdecl CPLStringList::Assign(char * *,int)" (?Assign@CPLStringList@@QEAAAEAV1@PEAPEADH@Z)
+     1>PriorityFill.obj : error LNK2019: 无法解析的外部符号 "public: char * __cdecl CPLStringList::operator[](int)" (??ACPLStringList@@QEAAPEADH@Z)，该符号在函数 "public: char * __cdecl CPLStringList::operator[](unsigned __int64)" (??ACPLStringList@@QEAAPEAD_K@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 "public: char * __cdecl CPLStringList::operator[](int)" (??ACPLStringList@@QEAAPEADH@Z)
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 "public: char * __cdecl CPLStringList::operator[](int)" (??ACPLStringList@@QEAAPEADH@Z)
+     1>PriorityFill.obj : error LNK2019: 无法解析的外部符号 "public: char const * __cdecl CPLStringList::operator[](int)const " (??ACPLStringList@@QEBAPEBDH@Z)，该符号在函数 "public: char const * __cdecl CPLStringList::operator[](unsigned __int64)const " (??ACPLStringList@@QEBAPEBD_K@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 "public: char const * __cdecl CPLStringList::operator[](int)const " (??ACPLStringList@@QEBAPEBDH@Z)
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 "public: char const * __cdecl CPLStringList::operator[](int)const " (??ACPLStringList@@QEBAPEBDH@Z)
+     1>PriorityFill.obj : error LNK2019: 无法解析的外部符号 CPLAtomicAdd，该符号在函数 "public: int __cdecl GDALRasterBlock::AddLock(void)" (?AddLock@GDALRasterBlock@@QEAAHXZ) 中被引用
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 CPLAtomicAdd
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 CPLAtomicAdd
+     1>PriorityFill.obj : error LNK2019: 无法解析的外部符号 GDALGetDataTypeSizeBytes，该符号在函数 "public: int __cdecl GDALRasterBlock::GetBlockSize(void)const " (?GetBlockSize@GDALRasterBlock@@QEBAHXZ) 中被引用
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 GDALGetDataTypeSizeBytes
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 GDALGetDataTypeSizeBytes
+     1>PriorityFill.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl GDALColorTable::GDALColorTable(enum GDALPaletteInterp)" (??0GDALColorTable@@QEAA@W4GDALPaletteInterp@@@Z)，该符号在函数 "public: void __cdecl GDALColorTable::`default constructor closure'(void)" (??_FGDALColorTable@@QEAAXXZ) 中被引用
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl GDALColorTable::GDALColorTable(enum GDALPaletteInterp)" (??0GDALColorTable@@QEAA@W4GDALPaletteInterp@@@Z)
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl GDALColorTable::GDALColorTable(enum GDALPaletteInterp)" (??0GDALColorTable@@QEAA@W4GDALPaletteInterp@@@Z)
+     1>PriorityFill.obj : error LNK2019: 无法解析的外部符号 "public: virtual __cdecl GDALAbstractBandBlockCache::~GDALAbstractBandBlockCache(void)" (??1GDALAbstractBandBlockCache@@UEAA@XZ)，该符号在函数 "public: virtual void * __cdecl GDALAbstractBandBlockCache::`scalar deleting destructor'(unsigned int)" (??_GGDALAbstractBandBlockCache@@UEAAPEAXI@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 "public: virtual __cdecl GDALAbstractBandBlockCache::~GDALAbstractBandBlockCache(void)" (??1GDALAbstractBandBlockCache@@UEAA@XZ)
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 "public: virtual __cdecl GDALAbstractBandBlockCache::~GDALAbstractBandBlockCache(void)" (??1GDALAbstractBandBlockCache@@UEAA@XZ)
+     1>PriorityFill.obj : error LNK2019: 无法解析的外部符号 "public: class CPLString & __cdecl CPLString::toupper(void)" (?toupper@CPLString@@QEAAAEAV1@XZ)，该符号在函数 "private: class GDALDriver * __cdecl GDALDriverManager::GetDriverByName_unlocked(char const *)" (?GetDriverByName_unlocked@GDALDriverManager@@AEAAPEAVGDALDriver@@PEBD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 "public: class CPLString & __cdecl CPLString::toupper(void)" (?toupper@CPLString@@QEAAAEAV1@XZ)
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 "public: class CPLString & __cdecl CPLString::toupper(void)" (?toupper@CPLString@@QEAAAEAV1@XZ)
+     1>PriorityFill.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl GDALAsyncReader::LockBuffer(double)" (?LockBuffer@GDALAsyncReader@@UEAAHN@Z)
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl GDALAsyncReader::LockBuffer(double)" (?LockBuffer@GDALAsyncReader@@UEAAHN@Z)
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __cdecl GDALAsyncReader::LockBuffer(double)" (?LockBuffer@GDALAsyncReader@@UEAAHN@Z)
+     1>PriorityFill.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl GDALAsyncReader::UnlockBuffer(void)" (?UnlockBuffer@GDALAsyncReader@@UEAAXXZ)
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl GDALAsyncReader::UnlockBuffer(void)" (?UnlockBuffer@GDALAsyncReader@@UEAAXXZ)
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl GDALAsyncReader::UnlockBuffer(void)" (?UnlockBuffer@GDALAsyncReader@@UEAAXXZ)
+     1>PriorityFill.obj : error LNK2019: 无法解析的外部符号 "public: virtual __cdecl GDALAsyncReader::~GDALAsyncReader(void)" (??1GDALAsyncReader@@UEAA@XZ)，该符号在函数 "public: virtual void * __cdecl GDALAsyncReader::`scalar deleting destructor'(unsigned int)" (??_GGDALAsyncReader@@UEAAPEAXI@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2001: 无法解析的外部符号 "public: virtual __cdecl GDALAsyncReader::~GDALAsyncReader(void)" (??1GDALAsyncReader@@UEAA@XZ)
+     1>ShellMain.obj : error LNK2001: 无法解析的外部符号 "public: virtual __cdecl GDALAsyncReader::~GDALAsyncReader(void)" (??1GDALAsyncReader@@UEAA@XZ)
+     1>RasterReadWrite.obj : error LNK2019: 无法解析的外部符号 "public: enum CPLErr __cdecl GDALRasterBand::RasterIO(enum GDALRWFlag,int,int,int,int,void *,int,int,enum GDALDataType,__int64,__int64,struct GDALRasterIOExtraArg *)" (?RasterIO@GDALRasterBand@@QEAA?AW4CPLErr@@W4GDALRWFlag@@HHHHPEAXHHW4GDALDataType@@_J3PEAUGDALRasterIOExtraArg@@@Z)，该符号在函数 "public: struct CRasterData * __cdecl CRasterReadWrite::Read(char *)" (?Read@CRasterReadWrite@@QEAAPEAUCRasterData@@PEAD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2019: 无法解析的外部符号 CPLMalloc，该符号在函数 "public: struct CRasterData * __cdecl CRasterReadWrite::Read(char *)" (?Read@CRasterReadWrite@@QEAAPEAUCRasterData@@PEAD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2019: 无法解析的外部符号 "public: class GDALRasterBand * __cdecl GDALDataset::GetRasterBand(int)" (?GetRasterBand@GDALDataset@@QEAAPEAVGDALRasterBand@@H@Z)，该符号在函数 "public: struct CRasterData * __cdecl CRasterReadWrite::Read(char *)" (?Read@CRasterReadWrite@@QEAAPEAUCRasterData@@PEAD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2019: 无法解析的外部符号 GDALClose，该符号在函数 "public: struct CRasterData * __cdecl CRasterReadWrite::Read(char *)" (?Read@CRasterReadWrite@@QEAAPEAUCRasterData@@PEAD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl GDALDataset::GetRasterYSize(void)" (?GetRasterYSize@GDALDataset@@QEAAHXZ)，该符号在函数 "public: struct CRasterData * __cdecl CRasterReadWrite::Read(char *)" (?Read@CRasterReadWrite@@QEAAPEAUCRasterData@@PEAD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl GDALDataset::GetRasterXSize(void)" (?GetRasterXSize@GDALDataset@@QEAAHXZ)，该符号在函数 "public: struct CRasterData * __cdecl CRasterReadWrite::Read(char *)" (?Read@CRasterReadWrite@@QEAAPEAUCRasterData@@PEAD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2019: 无法解析的外部符号 GDALDestroyDriverManager，该符号在函数 "public: struct CRasterData * __cdecl CRasterReadWrite::Read(char *)" (?Read@CRasterReadWrite@@QEAAPEAUCRasterData@@PEAD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2019: 无法解析的外部符号 GDALOpen，该符号在函数 "public: struct CRasterData * __cdecl CRasterReadWrite::Read(char *)" (?Read@CRasterReadWrite@@QEAAPEAUCRasterData@@PEAD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2019: 无法解析的外部符号 GDALAllRegister，该符号在函数 "public: struct CRasterData * __cdecl CRasterReadWrite::Read(char *)" (?Read@CRasterReadWrite@@QEAAPEAUCRasterData@@PEAD@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2019: 无法解析的外部符号 "public: class GDALDataset * __cdecl GDALDriver::Create(char const *,int,int,int,enum GDALDataType,char * *)" (?Create@GDALDriver@@QEAAPEAVGDALDataset@@PEBDHHHW4GDALDataType@@PEAPEAD@Z)，该符号在函数 "public: bool __cdecl CRasterReadWrite::CreateFile(struct CRasterData *,char *,char *)" (?CreateFile@CRasterReadWrite@@QEAA_NPEAUCRasterData@@PEAD1@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2019: 无法解析的外部符号 "public: class GDALDriver * __cdecl GDALDriverManager::GetDriverByName(char const *)" (?GetDriverByName@GDALDriverManager@@QEAAPEAVGDALDriver@@PEBD@Z)，该符号在函数 "public: bool __cdecl CRasterReadWrite::CreateFile(struct CRasterData *,char *,char *)" (?CreateFile@CRasterReadWrite@@QEAA_NPEAUCRasterData@@PEAD1@Z) 中被引用
+     1>RasterReadWrite.obj : error LNK2019: 无法解析的外部符号 GetGDALDriverManager，该符号在函数 "public: bool __cdecl CRasterReadWrite::CreateFile(struct CRasterData *,char *,char *)" (?CreateFile@CRasterReadWrite@@QEAA_NPEAUCRasterData@@PEAD1@Z) 中被引用
+     1>D:\Desktop\ParallelComputer\Fill\x64\Debug\Fill.exe : fatal error LNK1120: 29 个无法解析的外部命令
+     1>已完成生成项目“D:\Desktop\ParallelComputer\Fill\Fill\Fill.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.47
